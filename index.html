@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>VIVEX</title>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #0a2540;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #13315c;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 260px;
+  vertical-align: top;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.stars {
+  color: gold;
+  font-size: 18px;
+}
+
+button {
+  background: #0a2540;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  background: #0a2540;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>VIVEX</h1>
+  <p>Compra, vende y renta fácil</p>
+</header>
+
+<nav>
+  <a href="#franquicias">Franquicias</a>
+  <a href="#inmobiliarias">Inmobiliarias</a>
+  <a href="#articulos">Artículos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<!-- FRANQUICIAS -->
+<section id="franquicias">
+  <h2>Franquicias VIVEX</h2>
+  <p>Forma parte de nuestro negocio y crea ingresos con nuestro modelo.</p>
+</section>
+
+<!-- INMOBILIARIAS -->
+<section id="inmobiliarias">
+  <h2>Inmobiliarias</h2>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250">
+    <h3>Inmobiliaria Quito</h3>
+    <p>Casas y departamentos</p>
+    <div class="stars">⭐⭐⭐⭐☆</div>
+    <button onclick="alert('Contacto: 0999999999')">Contactar</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250">
+    <h3>Inmobiliaria Ambato</h3>
+    <p>Venta y renta</p>
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <button onclick="alert('Contacto: 0988888888')">Contactar</button>
+  </div>
+
+</section>
+
+<!-- ARTÍCULOS -->
+<section id="articulos">
+  <h2>Artículos</h2>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250">
+    <h3>Televisor LG</h3>
+    <p>Compra o renta disponible</p>
+    <div class="stars">⭐⭐⭐⭐☆</div>
+    <button onclick="alert('Contacto: 0977777777')">Contactar</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250">
+    <h3>Bicicleta</h3>
+    <p>Renta por día</p>
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <button onclick="alert('Contacto: 0966666666')">Contactar</button>
+  </div>
+
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Escríbenos por WhatsApp:</p>
+  <button onclick="window.location.href='https://wa.me/593XXXXXXXXX'">
+    Ir a WhatsApp
+  </button>
+</section>
+
+<footer>
+  <p>© 2026 VIVEX</p>
+</footer>
+
+</body>
+</html>
