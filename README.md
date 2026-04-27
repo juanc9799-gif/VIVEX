@@ -1,2 +1,2 @@
 # VIVEX
-Encuentra lo que buscas
+Encuentras lo que buscas
